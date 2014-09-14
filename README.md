@@ -11,4 +11,4 @@ Workflow
 	./config.sh device-name
 	docker run -v $PWD:/B2D -i -t simonjohansson/b2g-build /bin/bash
 	cd /B2D
-	./build.sh
+	SHELL=/bin/bash ./build.sh
