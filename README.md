@@ -1,6 +1,6 @@
 Hello
 ============================
-Ever wanted to build B2G but was using a distro that makes it [awfully awful](https://developer.mozilla.org/zh-TW/Firefox_OS/Firefox_OS_build_prerequisites#Arch_Linux)to do so?
+Ever wanted to build B2G but was using a distro that makes it [awfully awful](https://developer.mozilla.org/zh-TW/Firefox_OS/Firefox_OS_build_prerequisites#Arch_Linux) to do so?
 
 This docker image helps by installing all neccecary deps into a Ubuntu 14.04 base image.
 
