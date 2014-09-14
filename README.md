@@ -9,6 +9,6 @@ Workflow
 	git clone https://github.com/mozilla-b2g/B2G.git
 	cd B2G
 	./config.sh device-name
-	docker run -v .:/B2D -i -t simonjohansson/b2g-build /bin/bash
+	docker run -v $PWD:/B2D -i -t simonjohansson/b2g-build /bin/bash
 	cd /B2D
 	./build.sh
