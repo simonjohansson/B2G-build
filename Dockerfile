@@ -13,4 +13,4 @@ RUN update-alternatives --set gcc "/usr/bin/gcc-4.6"
 RUN update-alternatives --set g++ "/usr/bin/g++-4.6"
 
 # Extra deps needed not in ubuntu 14.04 base image
-RUN apt-get install -y python openjdk-7-jdk wget libdbus-glib-1-dev libxt-dev
+RUN apt-get install -y python python-dev openjdk-7-jdk wget libdbus-glib-1-dev libxt-dev unzip
