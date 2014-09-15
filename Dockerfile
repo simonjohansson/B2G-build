@@ -16,7 +16,11 @@ RUN update-alternatives --set gcc "/usr/bin/gcc-4.6"
 RUN update-alternatives --set g++ "/usr/bin/g++-4.6"
 
 #Setup environment and build that sucka!
+RUN useradd -m build
+USER build
 ENV SHELL /bin/bash
 VOLUME ["/B2G"]
 WORKDIR /B2G
+
+# Build :)
 ENTRYPOINT ./build.sh
