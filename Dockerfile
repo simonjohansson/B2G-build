@@ -16,3 +16,7 @@ RUN update-alternatives --set g++ "/usr/bin/g++-4.6"
 RUN apt-get install -y python python-dev openjdk-7-jdk wget libdbus-glib-1-dev libxt-dev unzip
 
 ENV SHELL /bin/bash
+VOLUME ["/B2G"]
+WORKDIR /B2G
+
+ENTRYPOINT ./build.sh
