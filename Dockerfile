@@ -19,6 +19,7 @@ RUN update-alternatives --set g++ "/usr/bin/g++-4.6"
 RUN useradd -m build
 USER build
 ENV SHELL /bin/bash
+ENV HOME /home/build
 VOLUME ["/B2G"]
 WORKDIR /B2G
 
