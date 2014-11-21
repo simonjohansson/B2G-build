@@ -12,4 +12,9 @@ Workflow
 	docker run -v $PWD:/B2G -i -t simonjohansson/b2g-build
 
 
-This has only been tested for nexus-4-kk as target so there will be missing deps for other platforms, please send PRs. :)
+This has been tested on:
+
+* nexus-4-kk
+* flame-kk
+
+There will be missing deps for other platforms, please send PRs. :)
