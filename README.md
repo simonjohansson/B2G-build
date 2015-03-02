@@ -16,5 +16,6 @@ This has been tested on:
 
 * nexus-4-kk
 * flame-kk
+* nexus-5
 
 There will be missing deps for other platforms, please send PRs. :)
