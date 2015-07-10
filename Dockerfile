@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:14.04
 MAINTAINER Simon Johansson <simon@simonjohansson.com>
 
 RUN dpkg --add-architecture i386
